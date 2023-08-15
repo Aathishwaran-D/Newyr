@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bricolage+Grotesque:opsz@10..48&family=Poppins&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bricolage+Grotesque:opsz@10..48&family=Cookie&family=Poppins&family=Rubik+Wet+Paint&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    background:fixed;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../Images/nw.jpg');
+    color: #fff;
+    background-size: cover;
+
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 50px;
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.newyear{
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.box h2{
+    font-size: 50px;
+}
+.box small{
+    font-size: 12px;
+    font-weight: bolder;
+}
